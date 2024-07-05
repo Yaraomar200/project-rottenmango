@@ -1,0 +1,407 @@
+.div1
+{
+  display: block; 
+  
+}
+.div2
+{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.rottenpng
+{
+  width:70px;
+  height:40px;
+}
+.rottenpng:hover{
+  cursor: pointer;
+}
+.div3
+{
+  width:800px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 35px;
+
+
+}
+.div4
+{
+  width:100px; 
+  display: inline-block;
+  margin-left: 250px;
+}
+.icons 
+{
+  display: inline-block;
+}
+body
+{
+
+    background-image: url(RM+Background.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.options
+{
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+}
+
+.iconspng
+{
+  width: 20px;
+  height: 20px;
+  margin-right:10px;
+  margin-top: 35px;
+}
+.iconspng:hover
+{
+  cursor: pointer;
+}
+.options:hover
+{
+  cursor: pointer;
+}
+.searchbox
+{
+    width: 210.156px; 
+    border: 3px solid, rgb(249, 190, 122); 
+    border-radius: 30px; 
+    background-color: transparent; 
+    color: transparent; 
+    font-size: 14px; 
+    padding: right 12px; ;
+    padding: left 45px; ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    background-image: url(icon-searchqueries-20-light\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    opacity: 0.5;
+}
+.searchbox::placeholder
+{
+ text-indent: 30px;
+ color: rgb(200, 200, 200);
+}
+.searchbox:hover
+{
+  opacity: 1;
+}
+.searchbox:focus
+{
+  outline-color: white;
+  outline-width: 3px;
+  outline-style: solid;
+  outline-offset: 2px;
+
+
+}
+.b2
+{
+  display: inline-block;
+ margin-left:980px; 
+ margin-top:10px;
+}
+.b1
+{
+  display: block;
+
+}
+.hero
+{
+  height: 600px;
+  width:430px;
+  margin-left: 100px;
+max-width: 430px;
+width: 100%;
+  
+
+}
+.b4
+{
+  display: inline-block;
+  width: 530px;
+margin-left: 40px;
+margin-top: 200px;
+vertical-align:top;
+
+}
+.b3
+{
+  display: inline-block;
+  width: 50%;
+
+}
+.hosted
+{
+    font-family: "Radio Canada", sans-serif;
+    color:white;
+   font-weight: 350;
+   font-size: 55px;
+   line-height: 50px;
+}
+.ex
+{
+  text-decoration:underline ;
+ text-decoration-color:rgb(249, 190, 122) ;
+}
+.arrow
+{
+  width:140px;
+  height: 200px;
+}
+.overlay
+{
+  position: absolute;
+top:540px;
+  left: 430px;
+  width: 100%;
+  height: 100%;
+  background-color:transparent; 
+  display: flex;
+  width: 50%;
+
+}
+.twoboxes
+{
+  display: block;
+}
+.box1
+{
+  width: 550px;
+  height: 200px;
+  background-color: rgb(166 67 82);
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.recent
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+.recente
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  width: 420px;
+  color: white;
+  margin-left: 50px;
+
+}
+.recente:hover
+{
+  cursor: pointer;
+}
+.date
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(215, 212, 212);
+margin-left: 50px;
+
+}
+.box2
+{
+  width:400px;
+  height: 200px;
+  background-color:rgb(37, 37, 39);
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 100px;
+  border-radius: 10px;
+  vertical-align:top;
+  display: inline-flex;
+  z-index: 10;
+  position: relative;
+}
+.all
+{
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-top: 70px;
+  margin-right: 25px;
+  margin-left: 80px;
+  width: 300px;
+}
+.all:hover
+{
+  cursor: pointer;
+}
+.footer
+{
+ background-color: rgb(137,91,119);
+}
+.pur
+{
+  display: block;
+  width: 1400px;
+  height: 110px;
+  margin-top: 100px;
+}
+.we
+{
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+ display: inline-block;
+ width: 450px;
+ margin-left: 400px;
+
+}
+.carousel
+{
+  position: relative;
+  width:80%;
+ 
+
+}
+.carousel_track
+{
+  display: flex;
+  justify-content: center;
+   border-color: transparent;
+  gap: 200px;
+  padding: 10px;
+  list-style: none;
+  background-color: rgb(137,91,119);
+  margin: 0;
+}
+.logoo
+{
+  border-radius: 500px;
+  object-fit: cover;
+}
+.carousel_slide
+{
+  display: inline-block;
+}
+.carousel_track_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: rgb(137,91,119);
+  
+}
+.carousel_button_left
+{
+  border-radius: 100%;
+  border-color: transparent;
+  background-color: rgb(166 67 82);
+  opacity: 0.7;
+  transform: translateY(-119px);
+  margin-left: 20px;
+}
+
+.carousel_button_right
+{
+  border-radius:100%;
+  border-color: transparent;
+  background-color: rgb(166 67 82);
+  opacity: 0.7;
+  transform: translate(1300px ,131px);
+  margin-right: 20px;
+}
+.bb
+{
+ font-size: 16px;
+ color: white;
+
+ font-weight: 700;
+
+}
+.carousel_button_right:hover
+{
+  cursor: pointer;
+  opacity: 1;
+  display: inline-block;
+  display: inline-flex;
+  z-index: 10;
+  position: relative;
+}
+.carousel_button_left:hover
+{
+  cursor: pointer;
+  opacity: 1;
+  display: inline-block;
+  display: inline-flex;
+  z-index: 10;
+  position: relative;
+}
+.about 
+{
+  display: inline-block;
+}
+.nn 
+{
+  font-family: "Radio Canada", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 40px;
+   color: white;
+   margin-left: 50px;
+   transform: translateY(-50px);
+  
+   
+}
+.nn:hover
+{
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+
+}
+.downicons
+{
+  display: block;
+}
+.d
+{
+   transform: translate(610px, -50px);
+   width: 20px;
+   height: 20px;
+   margin-right: 20px;
+}
+.d:hover
+{
+  cursor: pointer;
+}
+.line 
+{
+  display: block;
+}
+.last
+{
+  transform: translate(590px, -50px);
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+
+}
